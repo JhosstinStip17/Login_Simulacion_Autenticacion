@@ -1,0 +1,44 @@
+body {
+    background-color: #f8f9fa;
+    height: 100vh;
+}
+
+.login-container {
+    max-width: 400px;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    background-color: white;
+}
+
+.logo {
+    max-width: 200px;
+    margin-bottom: 1.5rem;
+}
+
+.btn-login {
+    width: 100%;
+    padding: 0.75rem;
+    font-weight: 600;
+}
+
+.loading-spinner {
+    display: none;
+    margin-right: 8px;
+}
+
+.welcome-container {
+    display: none;
+    max-width: 400px;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    background-color: white;
+    text-align: center;
+}
+
+.user-avatar {
+    font-size: 48px;
+    margin-bottom: 1rem;
+    color: #0d6efd;
+}
